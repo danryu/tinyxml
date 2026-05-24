@@ -1,7 +1,6 @@
 #include <stack>
 
 #include "macros/unwrap.hpp"
-#include "macros/optional-return.hpp"
 #include "string-reader/string-reader.hpp"
 
 #include "util/trim.hpp"
