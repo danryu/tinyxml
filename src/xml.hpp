@@ -1,4 +1,5 @@
-#pragma once
+#ifndef TINYXML_XML_HPP
+#define TINYXML_XML_HPP
 #include <optional>
 #include <string>
 #include <string_view>
@@ -81,3 +82,5 @@ auto deparse(const Node& node) -> std::string;
 // test.cpp
 auto dump_node(const Node& node, std::string_view prefix = "", bool print_empty_fields = false) -> void;
 } // namespace xml
+
+#endif // TINYXML_XML_HPP
